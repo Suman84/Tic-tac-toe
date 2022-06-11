@@ -68,7 +68,7 @@ def checkIfWon(xoro):
         disable_all_buttons()
 
     elif b1["text"] == xoro and b5["text"] == xoro and b9["text"] ==xoro:
-        b3.config(bg="red")
+        b1.config(bg="red")
         b5.config(bg="red")
         b9.config(bg="red")
         winner = True
